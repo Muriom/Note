@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
-        android:fontFamily="@font/serif"
+
         android:text="@string/add_url"
         android:textColor="@color/colorWhite"
         android:textSize="@dimen/_14ssp"
@@ -43,7 +43,7 @@
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
         android:background="@null"
-        android:fontFamily="@font/plex_sans"
+
         android:gravity="center_vertical"
         android:hint="@string/enter_url"
         android:textColor="@color/colorWhite"
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_8sdp"
-        android:fontFamily="@font/zilla_slab"
+
         android:includeFontPadding="false"
         android:padding="@dimen/_8sdp"
         android:text="@string/add"
@@ -78,7 +78,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_8sdp"
-        android:fontFamily="@font/zilla_slab"
+
         android:includeFontPadding="false"
         android:padding="@dimen/_8sdp"
         android:text="@string/cancel_dialog"

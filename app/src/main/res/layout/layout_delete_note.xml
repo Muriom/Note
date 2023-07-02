@@ -25,7 +25,7 @@
         android:layout_height="match_parent"
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
-        android:fontFamily="@font/font_regular"
+
         android:includeFontPadding="false"
         android:text="@string/delete_note"
         android:textColor="@color/colorWhite"
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_8sdp"
-        android:fontFamily="@font/plex_sans"
+
         android:gravity="center_vertical"
         android:includeFontPadding="false"
         android:paddingStart="@dimen/_8sdp"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_8sdp"
-        android:fontFamily="@font/zilla_slab"
+
         android:padding="@dimen/_8sdp"
         android:textSize="@dimen/_13ssp"
         android:text="@string/delete_note"
@@ -73,8 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginEnd="8dp"
-        android:fontFamily="@font/zilla_slab"
-        android:includeFontPadding="false"
+               android:includeFontPadding="false"
         android:padding="@dimen/_8sdp"
         android:text="@string/cancel_dialog"
         android:textColor="@color/colorAccent"

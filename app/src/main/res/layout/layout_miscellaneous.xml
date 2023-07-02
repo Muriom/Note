@@ -14,7 +14,7 @@
         android:id="@+id/textMiscellaneous"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40sdp"
-        android:fontFamily="@font/serif"
+
         android:gravity="center"
         android:includeFontPadding="false"
         android:textSize="@dimen/_13ssp"
@@ -126,7 +126,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/plex_sans"
+
             android:text="@string/pick_color"
             android:textColor="@color/colorWhite"
             android:textSize="@dimen/_13ssp"
@@ -154,7 +154,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
-            android:fontFamily="@font/zilla_slab"
+
             android:includeFontPadding="false"
             android:text="@string/add_image"
             android:textColor="@color/colorIcons"
@@ -183,7 +183,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
-            android:fontFamily="@font/zilla_slab"
+
             android:includeFontPadding="false"
             android:text="@string/add_url"
             android:textColor="@color/colorIcons"
@@ -213,7 +213,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_10sdp"
-            android:fontFamily="@font/zilla_slab"
+
             android:includeFontPadding="false"
             android:text="@string/delete_note"
             android:textColor="@color/colorDelete"

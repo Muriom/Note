@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/notes_picture1"
     tools:context=".activities.CreateNoteActivity">
     <ScrollView
         android:layout_width="match_parent"
@@ -52,7 +52,7 @@
                 android:layout_marginTop="@dimen/_15sdp"
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:background="@null"
-                android:fontFamily="@font/motion_picture"
+
                 android:hint="@string/note_title"
                 android:imeOptions="actionDone"
                 android:importantForAutofill="no"
@@ -67,7 +67,7 @@
                 android:id="@+id/textDateTime"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/plex_sans"
+
                 android:includeFontPadding="false"
                 android:textColor="@color/colorIcons"
                 android:textSize="@dimen/_10ssp"
@@ -156,7 +156,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:autoLink="web"
-                android:fontFamily="@font/zilla_slab"
+
                 android:includeFontPadding="false"
                 android:textSize="@dimen/_13ssp"/>
 
@@ -180,7 +180,7 @@
                 android:layout_marginEnd="@dimen/_12sdp"
                 android:layout_marginBottom="@dimen/_15sdp"
                 android:background="@null"
-                android:fontFamily="@font/serif"
+
                 android:gravity="top"
                 android:hint="@string/type_note_here"
                 android:importantForAutofill="no"

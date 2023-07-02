@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B6C"
+    android:background="@drawable/notes_picture1"
     tools:context=".activities.MainActivity">
 
     <TextView
@@ -12,14 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:fontFamily="@font/font_regular"
+
         android:includeFontPadding="false"
         android:text="@string/my_notes"
         android:textColor="@color/colorWhite"
         android:textSize="50sp"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="37dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="37dp" />
 
     <LinearLayout
         android:id="@+id/layoutSearch"
@@ -36,16 +36,16 @@
         app:layout_constraintTop_toBottomOf="@+id/textMyNotes">
 
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:contentDescription="@string/app_name"
-        android:src="@drawable/ic_search"
-        app:tint="#DBDBDB"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="65dp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_search"
+            app:tint="#DBDBDB"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="65dp" />
 
         <EditText
             android:id="@+id/inputSearch"
@@ -53,7 +53,7 @@
             android:layout_height="48dp"
             android:layout_marginStart="12sp"
             android:background="@null"
-            android:fontFamily="@font/font_regular"
+
             android:hint="@string/search_notes"
             android:imeOptions="actionDone"
             android:importantForAutofill="no"
@@ -75,7 +75,7 @@
         android:paddingEnd="24dp"
         android:paddingBottom="24dp"
         app:layout_constraintBottom_toTopOf="@+id/layoutQuickActions"
-        app:layout_constraintTop_toBottomOf="@+id/layoutSearch"/>
+        app:layout_constraintTop_toBottomOf="@+id/layoutSearch" />
 
     <LinearLayout
         android:id="@+id/layoutQuickActions"
@@ -93,7 +93,8 @@
             android:layout_marginStart="0dp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_add_outline"
-            app:tint="#A4A4A4" />
+            app:tint="#FCF8F5F5" />
+
         <ImageView
             android:id="@+id/imageAddImage"
             android:layout_width="23dp"
@@ -101,8 +102,7 @@
             android:layout_marginStart="25dp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_image"
-            app:tint="#A4A4A4" />
-
+            app:tint="@color/white" />
 
 
         <ImageView
@@ -112,7 +112,7 @@
             android:layout_marginStart="25dp"
             android:contentDescription="@string/app_name"
             android:src="@drawable/ic_web_link"
-            app:tint="#A4A4A4" />
+            app:tint="@color/white" />
     </LinearLayout>
 
 
